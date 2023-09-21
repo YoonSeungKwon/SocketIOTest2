@@ -66,7 +66,7 @@ class App{
         //Send Data to Client
         setInterval(()=>{
             this.io.emit('clients', this.clients)
-        }, 10)
+        }, 100)
 
     }
     
